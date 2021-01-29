@@ -8,11 +8,8 @@
 * All ESM files use `.mjs`
 * Uses `__dirname`
 * Use top-level await
+* The simplest possible ESM package
 
-## Pros
-
-The simplest possible
-
-## Cons
+## Issues
 
 * In VS Code, you can't Ctrl-Click to `add.mjs`. It also doesn't intellisense it

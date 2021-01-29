@@ -5,7 +5,9 @@
   "type": "module",
   "main": "src/main.js",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "start": "node test/tryout.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

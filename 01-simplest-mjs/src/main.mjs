@@ -9,4 +9,5 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 
 const answer = add(40, 2)
 
-console.log(await fs.readFile(join(__dirname, 'text.txt'), 'utf8'), underline(red(answer)))
+export const banner =
+  (await fs.readFile(join(__dirname, 'text.txt'), 'utf8')) + ' ' + underline(red(answer))

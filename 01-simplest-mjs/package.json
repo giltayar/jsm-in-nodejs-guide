@@ -2,7 +2,7 @@
   "name": "01-simplest-mjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.mjs",
   "private": true,
   "scripts": {},
   "keywords": [],

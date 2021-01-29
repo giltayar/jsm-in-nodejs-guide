@@ -6,7 +6,7 @@
   "main": "src/main.js",
   "private": true,
   "scripts": {
-    "start": "node test/tryout.js"
+    "test": "node test/tryout.js"
   },
   "keywords": [],
   "author": "",

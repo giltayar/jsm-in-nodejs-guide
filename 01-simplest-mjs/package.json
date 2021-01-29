@@ -6,7 +6,7 @@
   "exports": "./src/main.mjs",
   "private": true,
   "scripts": {
-    "start": "node test/tryout.mjs"
+    "test": "node test/tryout.mjs"
   },
   "keywords": [],
   "author": "",

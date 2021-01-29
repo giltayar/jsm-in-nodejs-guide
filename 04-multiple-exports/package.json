@@ -1,0 +1,20 @@
+{
+  "name": "04-multiple-exports",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/main.js",
+  "exports": {
+    ".": "./src/main.js",
+    "./red": "./src/main-red.js",
+    "./blue": "./src/main-blue.js",
+    "./package.json": "./package.json"
+  },
+  "private": true,
+  "scripts": {
+    "test": "node test/tryout.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

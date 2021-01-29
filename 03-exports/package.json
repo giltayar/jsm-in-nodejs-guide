@@ -1,0 +1,18 @@
+{
+  "name": "03-exports",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/main.js",
+  "exports": {
+    ".": "./src/main.js",
+    "./package.json": "./package.json"
+  },
+  "private": true,
+  "scripts": {
+    "test": "node test/tryout.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

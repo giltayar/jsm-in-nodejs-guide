@@ -1,0 +1,21 @@
+{
+  "name": "05-dual-mode-library",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/main.js",
+  "exports": {
+    ".": {
+      "require": "./lib/main.js",
+      "import": "./src/main.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "private": true,
+  "scripts": {
+    "test": "node test/tryout.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

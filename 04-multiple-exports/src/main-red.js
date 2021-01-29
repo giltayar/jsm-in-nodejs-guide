@@ -1,3 +1,3 @@
-import {bannerInColor} from './banner-in-color.js'
+import {bannerInColor} from '../../05-dual-mode-library/src/banner-in-color.js'
 
 export const banner = bannerInColor('red')

@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "01-simplest-mjs"
+		},
+		{
+			"path": "02-simplest-js"
+		},
+		{
+			"path": "03-exports"
+		},
+		{
+			"path": "04-multiple-exports"
+		},
+		{
+			"path": "05-dual-mode-library"
+		},
+		{
+			"path": "06-tooling"
+		},
+		{
+			"path": "07-jsdoc-typing"
+		},
+		{
+			"path": "08-typescript"
+		}
+	],
+	"settings": {}
+}

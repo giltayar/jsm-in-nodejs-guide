@@ -1,7 +1,7 @@
 import {promises as fs} from 'fs'
 import url from 'url'
 import {join} from 'path'
-import {add} from './add.js'
+import {add} from './add.mjs'
 import chalk from 'chalk'
 const {underline} = chalk
 

@@ -8,6 +8,7 @@ const {underline} = chalk
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 
 const answer = add(40, 2)
+
 const text = await fs.readFile(join(__dirname, 'text.txt'), 'utf8')
 
 /**

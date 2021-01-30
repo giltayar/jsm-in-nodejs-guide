@@ -22,13 +22,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cpr": "^3.0.1",
     "rollup": "^2.38.1"
   },
   "dependencies": {
-    "@seasquared/functional-commons": "^1.1.4",
     "chalk": "^4.1.0"
   }
 }

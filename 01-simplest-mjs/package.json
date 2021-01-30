@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/main.mjs",
-  "exports": "./src/main.mjs",
   "files": [
     "src"
   ],

@@ -6,3 +6,5 @@
 * Don't forget, when importing, to import `.js`! This is by design
 
 ## Issues
+
+* Multiple exports are not supported yet (link?)

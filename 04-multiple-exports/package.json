@@ -18,7 +18,7 @@
     "test": "node test/tryout.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gil Tayar <gil@tayar.org>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0"

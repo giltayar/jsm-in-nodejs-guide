@@ -12,7 +12,7 @@
     "test": "node test/tryout.mjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gil Tayar <gil@tayar.org>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0"

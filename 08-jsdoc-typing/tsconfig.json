@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020", "DOM"],
+    "target": "ES2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": false,
+    "outDir": "lib",
+    "allowJs": true,
+    "checkJs": true,
+  },
+  "include": ["src/**/*.js"],
+  "exclude": ["node_modules"]
+}

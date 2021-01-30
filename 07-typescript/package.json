@@ -5,14 +5,17 @@
   "type": "module",
   "main": "./lib/main.js",
   "exports": "./lib/main.js",
+  "files": [
+    "lib"
+  ],
   "private": true,
   "scripts": {
     "build": "tsc && cpr src/text.txt lib/ --overwrite",
     "test": "node test/tryout.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gil Tayar <gil@tayar.org>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.14.22",
     "cpr": "^3.0.1",

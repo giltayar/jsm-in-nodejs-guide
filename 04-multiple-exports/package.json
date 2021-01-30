@@ -10,11 +10,17 @@
     "./blue": "./src/main-blue.js",
     "./package.json": "./package.json"
   },
+  "files": [
+    "src"
+  ],
   "private": true,
   "scripts": {
     "test": "node test/tryout.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }

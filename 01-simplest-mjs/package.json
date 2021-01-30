@@ -4,11 +4,17 @@
   "description": "",
   "main": "src/main.mjs",
   "exports": "./src/main.mjs",
+  "files": [
+    "src"
+  ],
   "private": true,
   "scripts": {
     "test": "node test/tryout.mjs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }

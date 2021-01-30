@@ -6,16 +6,29 @@
   "main": "./src/main.js",
   "exports": {
     ".": {
-      "require": "./lib/main.js",
+      "require": "./lib/main.cjs",
       "import": "./src/main.js"
     },
     "./package.json": "./package.json"
   },
+  "files": [
+    "src",
+    "lib"
+  ],
   "private": true,
   "scripts": {
-    "test": "node test/tryout.js"
+    "build": "rollup -c && cpr src/text.txt lib/ --overwrite",
+    "test": "node test/tryout.js && node test/tryout.cjs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cpr": "^3.0.1",
+    "rollup": "^2.38.1"
+  },
+  "dependencies": {
+    "@seasquared/functional-commons": "^1.1.4",
+    "chalk": "^4.1.0"
+  }
 }

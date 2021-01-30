@@ -4,11 +4,17 @@
   "description": "",
   "type": "module",
   "main": "src/main.js",
+  "files": [
+    "src"
+  ],
   "private": true,
   "scripts": {
     "test": "node test/tryout.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }

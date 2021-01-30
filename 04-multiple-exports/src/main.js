@@ -1,3 +1,5 @@
 import {bannerInColor} from './banner-in-color.js'
 
-export const banner = bannerInColor('white')
+export function banner() {
+  return bannerInColor('white')
+}

@@ -1,16 +1,15 @@
 import {promises as fs} from 'fs'
-import url from 'url'
+import url, {URL} from 'url'
 import {join} from 'path'
 import {add} from './add.js'
-import chalk from 'chalk'
-const {red, underline} = chalk
+const {default: chalk} = await import('chalk')
+const {underline} = chalk
 
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 
 const answer = add(40, 2)
-
 const text = await fs.readFile(join(__dirname, 'text.txt'), 'utf8')
 
-export function banner() {
-  return text + ' ' + underline(red(answer))
+export function bannerInColor(color: 'white'): string {
+  return text + ' ' + underline(chalk[color](answer))
 }

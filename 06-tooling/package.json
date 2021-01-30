@@ -2,10 +2,37 @@
   "name": "06-tooling",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module",
+  "main": "./src/main.js",
+  "exports": {
+    ".": "./src/main.js",
+    "./red": "./src/main-red.js",
+    "./blue": "./src/main-blue.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "test": "eslint 'src/*.js' 'test/*.js' && mocha --loader=testdouble test/test.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-syntax-top-level-await": "^7.12.1",
+    "chai": "^4.2.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^8.2.1",
+    "testdouble": "^3.16.1"
+  }
 }

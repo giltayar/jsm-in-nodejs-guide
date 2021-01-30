@@ -19,10 +19,10 @@
 			"path": "06-tooling"
 		},
 		{
-			"path": "07-jsdoc-typing"
+			"path": "07-typescript"
 		},
 		{
-			"path": "08-typescript"
+			"path": "08-jsdoc-typing"
 		}
 	],
 	"settings": {}

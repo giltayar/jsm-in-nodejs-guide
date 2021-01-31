@@ -14,5 +14,4 @@
 ## Issues
 
 * VSCode do not recognize self-referencing a module, so no intellisense on it
-* https://github.com/mysticatea/eslint-plugin-node/issues/250
-
+* <https://github.com/mysticatea/eslint-plugin-node/issues/250>

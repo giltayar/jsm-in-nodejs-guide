@@ -27,10 +27,11 @@
     "chalk": "^4.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/plugin-syntax-top-level-await": "^7.12.1",
     "chai": "^4.2.0",
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-plugin-node": "^11.1.0",
     "mocha": "^8.2.1",
     "testdouble": "^3.16.1"

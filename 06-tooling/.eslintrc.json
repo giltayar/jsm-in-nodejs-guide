@@ -6,7 +6,6 @@
   "extends": ["eslint:recommended", "plugin:node/recommended"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "rules": {

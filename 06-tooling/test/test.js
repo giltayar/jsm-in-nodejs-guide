@@ -1,7 +1,6 @@
 import mocha from 'mocha'
 const {describe, it} = mocha
-import chai from 'chai'
-const {expect} = chai
+import {expect} from 'chai'
 import * as td from 'testdouble'
 
 import {banner} from '../src/main.js'
